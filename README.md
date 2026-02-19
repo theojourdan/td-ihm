@@ -7,7 +7,7 @@ TD2 - HELP
    X.getSelectionModel().selectLast(); /* avec X votre ComboBox */
    ```
 
-8. Creer un EventListener a toujours la meme structure:
+7. Creer un EventListener a toujours la meme structure:
    ```
    EventHandler<ActionEvent> nameEvent = new EventHandler<ActionEvent>() {
 			@Override
@@ -22,17 +22,17 @@ TD2 - HELP
    Dans cette Q7. vous avez uniquement besoin de mettre à jour votre majListView avec en argument
    avec le nouveau repertoire qui a été sélectionné.
 
-9.    Vous pouvez choisir de mettre un bouton en "non-clickable" avec:
+8.    Vous pouvez choisir de mettre un bouton en "non-clickable" avec:
    ```
    X.setDisable(true); (avec X votre bouton)
    ```
 
-11. Vous devez créer un nouveau EventListener pour le bouton Cancel et fermer le Stage avec:
+9. Vous devez créer un nouveau EventListener pour le bouton Cancel et fermer le Stage avec:
     ```
     System.exit(0);
     ```
 
-13. Vous devez créer un nouveau EventListener sur listViewFile pour que quand un element est selectionné, le bouton Open devient clickable. Chercher le bon type d'évènement dans le pdf associé.
+10. Vous devez créer un nouveau EventListener sur listViewFile pour que quand un element est selectionné, le bouton Open devient clickable. Chercher le bon type d'évènement dans le pdf associé.
     Vous pouvez utiliser pour ajouter l'Event a la liste:
     ```
       listViewFile.setOnMouseClicked(monEvent);
@@ -42,7 +42,7 @@ TD2 - HELP
     Pour vérifier si l'element sélectionné est un dossier, créer un objet File avec l'adresse de l'objet de la list selectionné, puis appliquer la fonction isDirectory() sur l'objet File.
     Si c'est bien un dossier mettre à jour ComboBox.
 
-15. Pour vérifier s'il y a eu un double click:
+11. Pour vérifier s'il y a eu un double click:
     ```
       monEvent.getClickCount() == 2
     ```
