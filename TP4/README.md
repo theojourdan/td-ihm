@@ -5,7 +5,7 @@ TD4 - HELP
 3. N'oubliez pas tous les imports nécessaire.
 
 4. (Aide a,b,c)
-  1. D'abord constituez dans Model.java, les données que vous allez manipulez dans le     Viewer. Normalement vous manipulerez pour l'instant 2 données. Le choix de l'action à réaliser sur l'AnchorPane (Select/Move, Ellispse, Rectangle, Line) et le choix de la couleur:
+D'abord constituez dans Model.java, les données que vous allez manipulez dans le     Viewer. Normalement vous manipulerez pour l'instant 2 données. Le choix de l'action à réaliser sur l'AnchorPane (Select/Move, Ellispse, Rectangle, Line) et le choix de la couleur:
 
   ```
   public enum monChoixAction {
@@ -24,8 +24,7 @@ TD4 - HELP
 
   Enfin pour chacune de ces deux données créez des setters et getters pour avoir accès et modifier les valeurs de ces données. Puis faites le lien avec le Controller.
 
-
-  2. Pour chaque element de l'interface: 
+Pour chaque element de l'interface: 
 
     ```
     @FXML
