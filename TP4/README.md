@@ -26,7 +26,7 @@ D'abord constituez dans Model.java, les données que vous allez manipulez dans l
 
 Pour chaque element de l'interface: 
 
-    ```
+```
     @FXML
     RadioButton radiobutton_selectmove;
     @FXML
@@ -43,7 +43,7 @@ Pour chaque element de l'interface:
     Button button_clone;
     @FXML
     AnchorPane graphicalpane;
-    ```
+```
   Mettez les RadioButton dans un ToggleGroup afin de garantir que si un RadioButton est selectionné les autres ne le sont pas (voir https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/ToggleGroup.html). 
   Creez un eventHandler pour chaque element de l'interface. Laissez les vides pour ceux dont vous n'avez pas encore besoin. Example d'eventHandler:
     ```
