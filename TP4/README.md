@@ -52,15 +52,16 @@ Pour chaque element de l'interface:
 			public void handle(MouseEvent event) {
 				// ICI JE MET L'ACTION QUE JE VEUX
 			}
-		});
+	});
 ```
   Pour ce qui de votre AnchorPane graphicalpane, utilisez setOnMousePressed pour créer un objet du type selectionné quand on clique dans l'AnchorPane.
 ```
     graphicalpane.setOnMousePressed(new EventHandler<MouseEvent>() {
       @Override
-			public void handle(MouseEvent event) {
-      }
-		});
+      public void handle(MouseEvent event) {
+		// ICI JE MET L'ACTION QUE JE VEUX
+	  }
+	});
 ```
   
   Pour récupérer les coordonnées de l'endroit où l'on a cliqué: 
