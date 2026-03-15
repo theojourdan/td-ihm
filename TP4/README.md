@@ -5,7 +5,7 @@ TD4 - HELP
 3. N'oubliez pas tous les imports nécessaire.
 
 4. (Aide a,b,c)
-D'abord constituez dans Model.java, les données que vous allez manipulez dans le     Viewer. Normalement vous manipulerez pour l'instant 2 données. Le choix de l'action à réaliser sur l'AnchorPane (Select/Move, Ellispse, Rectangle, Line) et le choix de la couleur:
+D'abord constituez dans Model.java, les données que vous allez manipulez dans le Viewer. Normalement vous manipulerez pour l'instant 2 données. Le choix de la couleur, et le choix l'action à réaliser sur l'AnchorPane (Select/Move, Ellispse, Rectangle, Line), créez une classe de type Enum (https://www.w3schools.com/java/java_enums.asp):
 
   ```
   public enum monChoixAction {
