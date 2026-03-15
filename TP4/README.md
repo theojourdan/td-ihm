@@ -67,7 +67,7 @@ TD4 - HELP
   Pour récupérer les coordonnées de l'endroit où l'on a cliqué: 
   ```
   double mouseXOnClick = event.getX();
-	double mouseYOnClick = event.getY();
+  double mouseYOnClick = event.getY();
   ```
 
 
